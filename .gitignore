@@ -1,0 +1,18 @@
+# Secrets local - không push
+.env
+
+# Data runtime của Docker / Caddy
+data/
+
+# WordPress runtime: uploads, cache, core (chỉ giữ wp-config.php mẫu)
+wordpress/wp-content/uploads/
+wordpress/wp-content/cache/
+wordpress/wp-content/litespeed/
+wordpress/*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
